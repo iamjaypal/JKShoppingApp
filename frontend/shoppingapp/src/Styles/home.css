@@ -1,0 +1,39 @@
+.hero{
+    background: #fde1ff;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 100px;
+
+}
+.hero-left h2{
+    color: black;
+    font-size: 1.6rem;
+
+}
+.hero-left p{
+    font-size: 6rem;
+}
+.hero-latest-button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: #ff4141;
+    color: white;
+    margin-top: 15px;
+    max-width: 200px;
+    min-height: 55px;
+    font-size: 25px;
+    border-radius: 75px;
+}
+.hero-right img{
+    max-height: 500px;
+}

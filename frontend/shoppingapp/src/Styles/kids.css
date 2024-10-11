@@ -1,0 +1,10 @@
+.kids{
+    display: flex;
+    flex-wrap:wrap;
+    /* justify-content: center; */
+    justify-content: end;
+    padding: 20px;
+    background: black;
+    align-items: center;
+    gap: 20px;
+}

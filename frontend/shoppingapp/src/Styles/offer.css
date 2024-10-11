@@ -1,0 +1,31 @@
+.offer{
+    display: flex;
+    background: #fde1ff;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.offer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer-left h1{
+    color: #171717;
+    font-size: 80px;
+
+}
+.offer-left p{
+    color: #171717;
+    font-size: 30px;
+
+}
+.offer-left button{
+
+    max-width: 10rem;
+    border-radius: 25px;
+    background: #ff4141;
+    padding: 20px;
+    cursor: pointer;
+    font-size: medium;
+}
+

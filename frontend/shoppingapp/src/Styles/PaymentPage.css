@@ -1,0 +1,58 @@
+/* Center the content on the page */
+.payment-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the "Pay Now" button */
+.payment-btn {
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-btn:hover {
+    background-color: #218838;
+  }
+  
+  .payment-btn:active {
+    background-color: #1e7e34;
+  }
+  
+  /* Style for the congratulations message */
+  .congratulations-message h1 {
+    font-size: 32px;
+    color: #4CAF50;
+    margin-bottom: 16px;
+  }
+  
+  .congratulations-message p {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .congratulations-message {
+    margin-top: 40px;
+  }
+  
+  /* Animation for a smooth fade-in effect for the congratulations message */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .congratulations-message {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
